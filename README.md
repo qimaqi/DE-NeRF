@@ -21,7 +21,8 @@ We use depth as mask to get rid of artifacts and get grayscale like
 
 The implementation code is in scripts/rgba2grayscale.py
 
-We use [ESIM](https://github.com/uzh-rpg/rpg_vid2e) python binding for our experiment, we select esim_torch for faster simulation, you can download the light version which include only rgb and events with [link](https://www.polybox.ethz.ch/index.php/s/Es43yBV30G0xgub) around 600 MB
+We use [ESIM](https://github.com/uzh-rpg/rpg_vid2e) python binding for our experiment, we select esim_torch for faster simulation, you can download the light version which include only rgb and events with [link](https://www.polybox.ethz.ch/index.php/s/Es43yBV30G0xgub) with setting:` --contrast_threshold_neg=0.2 --contrast_threshold_pos=0.2 --refractory_period_ns=0`. The file take
+around 600 MB
 
 
 
