@@ -1,0 +1,3 @@
+[submodule "rpg_vid2e"]
+	path = rpg_vid2e
+	url = https://github.com/uzh-rpg/rpg_vid2e.git
